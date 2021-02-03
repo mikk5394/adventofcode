@@ -30,5 +30,3 @@ for i in data:
 
     if (password[firstPos] == letter and password[secondPos] != letter) or (password[firstPos] != letter and password[secondPos] == letter):
         counter += 1
-
-print(counter)
