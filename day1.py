@@ -1,9 +1,7 @@
-#day1
-
 #part 1
 numbers = []
 
-with open('1-data') as f:
+with open('day1-data') as f:
     for line in f:
         numbers.append(int(line.strip("\n")))
 
@@ -15,7 +13,6 @@ for i in numbers:
 
 
 #part 2
-
 for i in numbers:
     for k in numbers:
         for j in numbers:
